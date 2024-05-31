@@ -4,7 +4,7 @@
 <div class="container">
     <br>
     <br>
-    <h1>Visitas</h1>
+    <h1>Lista de empleados</h1>
     <table>
         <thead>
             <tr>
@@ -15,7 +15,7 @@
         <tbody>
             {% for card in all_cards %}
             <tr>
-                <td>{{ card.name }}</td>
+                <td>{{ card.nombres }}</td>
                 <td>{{ card.email }}</td>
             </tr>
             {% endfor %}
